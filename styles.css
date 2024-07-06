@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.square {
+  display: block;
+  border: 1px black solid;
+  border-width: 1px;
+  background-color: lightgrey;
+}
+.container {
+  height: 960px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+button {
+  width: auto;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 0px 20px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
