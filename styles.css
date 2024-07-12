@@ -5,16 +5,22 @@
 .square {
   display: block;
   border: 1px black solid;
-  border-width: 1px;
-  background-color: lightgrey;
+  background-color: rgb(211, 211, 211);
+  width: calc(100% / var(--number));
+  height: calc(100% / var(--number));
+  box-sizing: border-box;
 }
 .container {
   height: 960px;
+  width: 960px;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   background-color: antiquewhite;
+  border: 10px black solid;
+  border-radius: 10px;
 }
 button {
   width: auto;
