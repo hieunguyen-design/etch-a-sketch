@@ -14,25 +14,6 @@ function randomColor() {
 
 function makeGrid(number) {
   container.replaceChildren();
-<<<<<<< HEAD
-  for (let col = 0; col < number; col++) {
-    const column = document.createElement("div");
-    let size = 960 / number;
-    column.style.width = size + "px";
-    container.appendChild(column);
-    for (let row = 0; row < number; row++) {
-      const sqr = document.createElement("div");
-      sqr.addEventListener("mouseover", () => {
-        sqr.style.backgroundColor = "#232423";
-      });
-      sqr.className = "square";
-      sqr.style.height = size + "px";
-      sqr.style.width = size + "px";
-      // sqr.textContent = col + "." + row;
-      console.log(sqr.style.width + " " + sqr.style.height);
-      column.appendChild(sqr);
-    }
-=======
   console.log(colorRandomMode);
   for (let i = 0; i < number * number; i++) {
     const sqr = document.createElement("div");
@@ -51,7 +32,6 @@ function makeGrid(number) {
         sqr.style.backgroundColor = "rgb(35, 36, 35)";
       }
     });
->>>>>>> newApproach
   }
   return (sizeGrid = number);
 }

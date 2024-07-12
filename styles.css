@@ -5,17 +5,10 @@
 .square {
   display: block;
   border: 1px black solid;
-<<<<<<< HEAD
-  border-width: 1px;
-  background-color: lightgrey;
-  /* height: --sqr-height; */
-  /* width: --sqr-width; */
-=======
   background-color: rgb(211, 211, 211);
   width: calc(100% / var(--number));
   height: calc(100% / var(--number));
   box-sizing: border-box;
->>>>>>> newApproach
 }
 .container {
   height: 960px;
