@@ -7,6 +7,8 @@
   border: 1px black solid;
   border-width: 1px;
   background-color: lightgrey;
+  /* height: --sqr-height; */
+  /* width: --sqr-width; */
 }
 .container {
   height: 960px;

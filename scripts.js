@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 function makeGrid(number) {
   container.replaceChildren();
-  for (let col = 0; col < number * number; col++) {
+  for (let col = 0; col < number; col++) {
     const column = document.createElement("div");
     let size = 960 / number;
     column.style.width = size + "px";
